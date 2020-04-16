@@ -1,0 +1,28 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    /* background: linear-gradient(to right, rgb(128, 0, 128), rgb(255, 192, 203)); */
+    padding: 15px 0px 15px 0px;
+    width: 100%;
+    filter: drop-shadow(1px 1px 5px black);
+    z-index: 99;
+}
+.navbar > h1 {
+    color: rgba(20, 20, 20);
+    font-size: 32px;
+}
+
+.navbar > ul {
+    display: flex;
+}
+.navbar > ul > li > a {
+    color: rgba(20, 20, 20);
+    text-decoration: none;
+    margin: 10px;
+    transition: 0.3s;
+}
+.navbar > ul > li > a:hover {
+    color: rgba(80, 80, 80);
+}

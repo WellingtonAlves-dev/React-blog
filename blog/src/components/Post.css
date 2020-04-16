@@ -1,0 +1,65 @@
+.post {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 100px;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.post > .titulo {
+    display: flex;
+    width: 100%;
+    margin: 50px 0px 0px 0px;
+    border-bottom: 1px solid grey;
+}
+.post > .titulo > h1 {
+    font-size: 26px;
+}
+.post > .info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.post > .capa > img {
+    width: 100%;
+}
+.post > .descricao > p {
+    font-size: 14px;
+}
+
+.post > .final {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.post > .final > .tags {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+.post > .final > .tags > h6{
+    padding: 3px;
+    background-color: rgba(40, 40, 40, 0.2);
+    margin: 2px;
+}
+.post > .final > button {
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    background: linear-gradient(to right, rgb(128, 0, 128), rgb(255, 192, 203));
+    transition: 0.2s;
+    outline: none;
+    cursor: pointer;
+}
+.post > .final > button:hover {
+    color: black;
+}
+.post > .final > button:active {
+    transform: scale(1.03);
+}

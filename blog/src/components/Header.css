@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, rgb(128, 0, 128), rgb(255, 192, 203));
+    padding: 40px 0px 40px 0px;
+}
+.header > * {
+    color: white;
+}
+.header > h1 {
+    font-size: 30px;
+}
+.header > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    width:40%;
+}
+
+@media screen and (max-width: 728px) {
+    .header > p {
+        width: 80%;
+    }
+}
