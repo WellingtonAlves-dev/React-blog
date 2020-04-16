@@ -5,7 +5,8 @@ const Post = props => {
     return(
         <div className='post'>
             <div className='titulo'>
-                <h1> {props.titulo ? props.titulo : 'Sem titulo'} </h1>
+                <h1> {props.titulo ? props.titulo : 'Sem titulo'} {props.edit ? 
+                <button onClick={e => props.click(props.id)} >Editar</button> : ''} </h1>
             </div>
             <div className='info'>
                 <h4> {props.autor ? props.autor : 'Anonimo'} </h4>
