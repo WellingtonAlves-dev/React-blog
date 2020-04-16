@@ -2,6 +2,7 @@
     "posts": [
       { "id": 1, "title": "Programador em 2020", "author": "Simple code", "data": "14/04/2003", "capa": "http://apexensino.com.br/wp-content/uploads/2019/02/iStock-1017296544-1024x683-1024x640.jpg", "desc": "Como virar programador em 2020", "tags": ["Programador", "2020"]},
       { "id": 2, "title": "Desenvolvimento web com react", "author": "Wellington Alves", "data": "15/04/2020", "capa": "https://eusoudev.com.br/wp-content/uploads/2018/01/react.jpg", "desc": "Por que eu escolhi react", "tags": ["React", "Web", "Mobile"]},
-      { "id": 2, "title": "Meu odio pelo ubisoft", "author": "Wellington Alves", "data": "11/04/2020", "capa": "https://img.ibxk.com.br/2014/07/09/09135431419270.jpg?w=768&h=480&mode=crop&scale=both", "desc": "Por que eu odeio a ubisoft?", "tags": ["Ubisoft", "Lixo", "Assassin", "Creed"]}
+      { "id": 3, "title": "Meu odio pelo ubisoft", "author": "Wellington Alves", "data": "11/04/2020", "capa": "https://img.ibxk.com.br/2014/07/09/09135431419270.jpg?w=768&h=480&mode=crop&scale=both", "desc": "Por que eu odeio a ubisoft?", "tags": ["Ubisoft", "Lixo", "Assassin", "Creed"]},
+      { "id": 4, "title": "GTA 5 é o melhor da decada?", "author": "Wellington Alves", "data": "10/04/2020", "capa": "https://lh3.googleusercontent.com/df69C7opVu2rpmAnIFbYZWYFOCxyJmXOgghOd5BglQIVl69rIaPmw8uNyoGizMbQZdGiflSV=w640-h400-e365", "desc": "GTA 5 não é isso tudo?", "tags": ["Rockstar", "GTA", "Critica"]}  
     ]
 }
