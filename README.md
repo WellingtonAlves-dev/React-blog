@@ -1,8 +1,8 @@
 # React-blog
 Como estava praticando o react e o flexbox, resolvi desenvolver esse blog, no caso utilizei o json server apenas para simular uma API.
 
-### Instalando o React
-Para instalar o react entre no diretorio blog e execute o comando
+### Instalando os modulos do blog
+Para instalar os modulos entre no diretorio blog e execute o comando
 ```
 npm install
 ```
