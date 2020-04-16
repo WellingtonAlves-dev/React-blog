@@ -23,7 +23,7 @@ npm start
 ```
 e pronto o blog já está no ar
 
-## Authors
+## Autor
 
 * **Wellington R. alves**
 
