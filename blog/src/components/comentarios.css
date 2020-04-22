@@ -1,0 +1,14 @@
+.comentarios {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border: 1px solid gainsboro;
+    padding: 10px;
+    width: 90%;
+    min-height: 50px;
+}
+.comentarios > p {
+    word-wrap: break-word;
+    width: 100%;
+}

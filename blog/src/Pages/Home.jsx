@@ -28,7 +28,14 @@ export default () => {
             <Header />
             {
                 posts.map(post =>
-                    <Post edit={false} key={post.id} id={post.id} click={edit} titulo={post.title} autor={post.author} comentarios='0' 
+                    <Post edit={false} 
+                    key={post.id} 
+                    id={post.id} 
+                    click={edit} 
+                    titulo={post.title} 
+                    autor={post.author} 
+                    comentarios={post.comentarios.length}
+                    tolink={`/post/${post.id}`}
                     data={post.data} desc={post.desc.substr(0, 60)} tags={post.tags} capa={post.capa} />
                 )
             }

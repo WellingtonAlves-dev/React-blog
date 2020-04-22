@@ -27,7 +27,8 @@ export default () => {
             "data": data,
             "capa": url,
             "desc": desc,
-            "tags": tags
+            "tags": tags,
+            "comentarios": []
         }).then(res => setRedirect(true))
         .catch(err => alert(err));
 

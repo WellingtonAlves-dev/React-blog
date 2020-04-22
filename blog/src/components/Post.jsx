@@ -1,6 +1,6 @@
 import React from 'react';
 import './Post.css'
-
+import {Link} from 'react-router-dom';
 const Post = props => {
     return(
         <div className='post'>
@@ -35,7 +35,12 @@ const Post = props => {
                     }
                     <hr></hr>
                 </div>
-                <button>Ler mais</button>
+                {
+                    props.tolink ?
+                    <Link to={props.tolink}><button>Ler mais</button></Link>
+                    :
+                    ""
+                }
             </div>
         </div>
     )

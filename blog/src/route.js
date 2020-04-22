@@ -3,6 +3,7 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Home from './Pages/Home';
 import Admin from './Pages/Admin';
+import Postagens from './Pages/Materia';
 import {BrowserRouter, Switch, Route} from 'react-router-dom';
 
 export default props => {
@@ -20,6 +21,7 @@ export default props => {
             <Switch>
                 <Route path='/' exact component={Home} />
                 <Route path='/admin' component={Admin} />
+                <Route path="/post/:id" component={Postagens} />
             </Switch>
         </BrowserRouter>
         )

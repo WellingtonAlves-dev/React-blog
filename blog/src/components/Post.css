@@ -30,7 +30,9 @@
     width: 100%;
 }
 .post > .descricao > p {
+    word-wrap: break-word;
     font-size: 14px;
+    width: 100%;
 }
 
 .post > .final {
@@ -48,7 +50,7 @@
     background-color: rgba(40, 40, 40, 0.2);
     margin: 2px;
 }
-.post > .final > button {
+.post > .final > a > button {
     color: white;
     padding: 10px 20px;
     border: none;
@@ -57,9 +59,9 @@
     outline: none;
     cursor: pointer;
 }
-.post > .final > button:hover {
+.post > .final > a > button:hover {
     color: black;
 }
-.post > .final > button:active {
+.post > .final > a > button:active {
     transform: scale(1.03);
 }
