@@ -1,0 +1,7 @@
+{
+  "name": "blog-ionic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
